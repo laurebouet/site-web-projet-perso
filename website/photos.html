@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-sacle=1.0, minimal-ui"/>
+    <title>voyage</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./photos.css"/>
+    <!-- favicon -->
+    <link rel="icon" href="./images/favicon.ico" />
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/83f99e36e2.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap" rel="stylesheet">
+	<!-- script -->
+    <script src="./photos.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="./images/logo.jpg" alt="logo"></a>
+        </div>   
+        <div class="accueil">    
+            <!--      -->
+            <ul class="navlinks">
+                <!-- <li class="logo"><a href="./accueil.html"><img src="./images/logo.jpg" alt="logo"></a></li> -->
+                <li class="menu"><a href="accueil.html">Accueil</a></li>
+                <li class="menu"><a href="">Destinations</a></li>
+                <li class="menu"><a href="./photos.html">Photos</a></li>
+                <li class="menu"><a href="">&Agrave; propos</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="searchbar">
+            <h3>Recherche d'une photo par mot-clé</h3>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="recherche" type="text" onkeyup="search()" placeholder="votre recherche">
+            <div class="dico">
+                <ul>
+                    <li class="paystitre">Photos par pays</li>
+                    <li><a href="#A" onclick="dico()">A-E</a></li>
+                    <li><a href="#F" onclick="dico()">F-J</a></li>
+                    <li><a href="#K" onclick="dico()">K-O</a></li>
+                    <li><a href="#P" onclick="dico()">P-T</a></li>
+                    <li><a href="#U" onclick="dico()">U-Z</a></li>
+                
+                </ul>
+            </div>
+            
+        </section>
+        <div>
+            <ul id="photos">
+                <!-- <li><a href=""></a><img title="" class="" src="" alt="" ></li> -->
+                
+                <li id="A"><a href="">océan ocean mer vue panorama rio bresil brésil</a><img title="Brésil Rio de Janeiro" class="droite" src="./images/bresil.jpg" alt="bresil"></li>
+                <li id="A"><a href="">for&ecirc;t nuage arbre montagne bulgarie</a><img title=" Bulgarie" class="gauche" src="./images/bulgarie.JPG" alt="Arbre bulgarie"></li>
+                <li id="P"><a href="">fjord nuage neige norvège norvege paysage montagne </a> <img title="Fjord Norvège " class="droite" src="./images/norvege.jpg" alt="fjord norvège Neige"></li>
+                <li id="F"><a href="">finlande nuage arbre neige laponie</a> <img title="Laponie Finlande " class="gauche" src="./images/finlande.jpg" alt="finlande Neige"></li>
+                <li id="A"><a href="">canal amsterdam pont </a><img title="canal des pays-bas" class="droite" src="./images/netherlands.jpg" alt="canaux des pays-bas"></li>
+                <li id="P"><a href="">coucher de soleil bateau ocean océan sable mer Zanzibar tanzanie </a><img title="Zanzibar" class="gauche" src="./images/soleil_tan.jpg" alt="coucher de soleil en tanzanie"></li>
+                <li id="A"><a href="">nuage Bulgarie montagne arbre</a><img title="bulgarie" class="droite" src="./images/bulgariemontagne.JPG" alt="" ></li>
+                <li id="A"><a href="">coucher de soleil Bulgarie</a><img title="bulgarie" class="gauche" src="./images/bulgariesoleil.JPG" alt="" ></li>
+                <li id="P"><a href="">coucher de soleil</a><img title="saint georges de didone" class="droite" src="./images/stgddsoleil.JPG" alt="" ></li>
+                <li id="U"><a href="">valdeblore nuage montagne lac arbre</a><img title="Valdeblore" class="gauche" src="./images/valdeblore.jpg" alt="" ></li>
+                <li id="P"><a href="">sahara tunisie sable</a><img title="Tunisie" class="droite" src="./images/sahara.jpg" alt="" ></li>
+                <li id="P"><a href="">rose fleurs</a><img title="rose" class="gauche" src="./images/rose.jpg" alt="roses" ></li>
+                <li id="P"><a href="">panorama nuage fjord neige norvège norvege paysage montagne </a><img title="Norvège" class="droite" src="./images/norvegepano.jpg" alt="" ></li>
+                <li id="A"><a href="">eglise fleurs</a><img title="Danemark" class="gauche" src="./images/eglise.jpg" alt="" ></li>
+                <li id="F"><a href="">fleurs jaune</a><img title="Fleurs" class="droite" src="./images/fleurs.jpg" alt="" ></li>
+                <li id="P"><a href="">glacier glace neige norvège norvege paysage montagne </a><img title="Norvège" class="gauche" src="./images/glaciernorvege.jpg" alt="" ></li>
+                <li id="P"><a href="" >nuage neige norvège norvege paysage montagne</a><img title="Norvège" class="droite" src="./images/vuenorvege.jpg" alt="" ></li>
+                <li id="A"><a href="">port bateau nuage coucher de soleil</a><img title="" class="gauche" src="./images/bateausoleil.jpg" alt="" ></li>
+            </ul>
+        
+        </div>
+    </main>
+   
+    <footer class="footer">
+        <ul class="list">
+            <li>Mentions légales</li>
+            <li>&Agrave; propos</li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <ul class="icons">
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-solid fa-envelope"></i></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
