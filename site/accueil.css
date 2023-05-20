@@ -1,0 +1,237 @@
+/* COMMUN A TOUTES LES PAGES */
+
+*{
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+.accueil{
+    text-align: center;
+    
+}
+.navlinks{   
+    margin: 3%;
+    font-weight: 200;
+    list-style: none;
+    display: inline-flex;
+    text-transform: uppercase;
+}
+.logo{
+    position:absolute;
+    width:max-content;
+}
+.navlinks .menu{
+    margin: 10px 30px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.menu a:hover{
+    text-decoration: underline #6fb9b9 2px;
+}
+
+
+/* .logo{
+    margin: -1%;
+    margin-left: 3%;
+    position:fixed;
+    width:min-content;
+}
+.accueil{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    /* margin-left: 40%; 
+}
+.navlinks{   
+    margin: 2%;
+    font-weight: 200;
+    list-style: none;
+    display: inline-flex;
+    text-transform: uppercase;
+}
+
+.navlinks .menu{
+    margin: 0px 30px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.menu a:hover{
+    text-decoration: underline #6fb9b9 2px;
+} */
+/* FOOTER */
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    margin-top: 6%; /*uniquement ici - pas dans la carte*/
+    padding: 10px;
+    text-align: center;
+    list-style: none; 
+}
+.footer li{
+    margin: 10px;
+    display: inline;
+}
+/*ARROW UP*/
+
+.arrowup{
+    margin-left: 95%;
+}
+#arrowup{
+    color: #6fb9b9;
+    top:90%;
+    position: fixed;
+    font-size:1.5rem;
+}
+/* UNIQUEMENT POUR CETTE PAGE */
+
+
+/* COULEUR BAR NAV */
+
+.navlinks .menu a{
+    color: #fff; 
+}
+/* IMAGE BACKGROUND */
+
+header .titre{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 15%;
+    margin-left: 40%;
+    font-family: 'Felipa', cursive;
+    text-transform: uppercase;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(./images/back.jpg);
+    background-position: 100%;
+    /* margin-top: 10%; */
+    background-size: cover;
+    height: 100vh;
+}
+
+/* SECTION D1 */
+.d1text{
+    background-color: #6fb9b9;
+    padding: 20px; /*background texte*/
+    margin: 10%; /*espace photo-texte */
+    text-align: start; 
+    margin-left: 60%; /*deplacement vers la droite*/
+    width: 30%; /*espace pour le texte*/
+}
+.d1text h3{
+    padding: 10px 10px;
+}
+.d1 img{
+    float: left;
+    background-color: #000;
+    max-width:fit-content;
+}
+
+.d1 .fin{
+    margin-top:12% ;
+    margin-left:-7% ;
+    width: 12%;
+    height: 12%;
+}
+.d1 .tan{
+    margin-left:-2% ;
+    width: 10%;
+    height: 10%;
+}
+.d1 .nok{
+    margin-left:10% ;
+    width: 15%;
+    height: 15%;
+}
+.d1 .bre{
+    margin-top: 12%;
+    margin-left: -6%;
+    width: 18%;
+    height: 20%;
+}
+
+.d1 .ntl{
+    margin-top: 23%;
+    margin-left: -15%;
+    width: 12%;
+    height: 12%;
+}
+.d1 .blg{
+    margin-top: 29%;
+    margin-left: -40%;
+    width: 22%;
+    height: 22%;
+}
+/* SECTION D2 */
+
+.d2 img{
+    width: 20%;
+    height: 10%;
+    margin-left: 70%;
+    margin-top: 7%;
+    position: relative;
+}
+.d2 pre{
+
+    margin-left: 70%;
+    margin-top: -16%;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* WORLD MAP SVG */
+
+.mapimg{
+    position: absolute;
+    margin-top: -4%;
+    width: 60%;
+    float: left;
+    margin-left: 7%;
+}
+.mapimg path:hover{
+    fill: #6fb9b9;
+}
+
+
+
+/* SECTION D3 */
+
+.d4text h4 a{
+    color: #fff;
+    background-color: #6fb9b9;
+    padding: 10px;
+    float: right;
+    margin-top: 15%;
+    margin-right: 6%;
+    text-transform: uppercase;
+}
+
+.d4text .text{
+    float: right;
+    text-align: end;
+    margin-top:20%;
+    margin-right: -12%;
+    width: 15%;
+    font-size: 70%;
+    padding: 10px;
+}
+

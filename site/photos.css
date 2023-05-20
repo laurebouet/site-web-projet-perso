@@ -1,0 +1,128 @@
+/* COMMUN A TOUTES LES PAGES */
+
+*{
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+.accueil{
+    text-align: center;
+}
+.navlinks{   
+    margin: 3%;
+    font-weight: 200;
+    list-style: none;
+    display: inline-flex;
+    text-transform: uppercase;
+}
+.logo{
+    position:absolute;
+    width:max-content;
+}
+.navlinks .menu{
+    margin: 10px 30px;
+}
+.logoimg{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.menu a:hover{
+    text-decoration: underline #6fb9b9 2px;
+}
+
+
+/* FOOTER */
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    list-style: none; 
+}
+.footer li{
+    margin: 10px;
+    display: inline;
+}
+
+/*ARROW UP*/
+.arrowup{
+    margin-left: 95%;
+}
+#arrowup{
+    color: #6fb9b9;
+    top:90%;
+    position: fixed;
+    font-size:1.5rem;
+}
+/* UNIQUEMENT POUR CETTE PAGE */
+
+/* SEARCH BAR */
+.searchbar{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.searchbar h3{
+    text-decoration:overline;
+    padding: 10px;
+}
+.searchbar i{
+    font-size: 10px;
+    padding: 10px;
+}
+#res{
+    font-size: 12px;
+}
+/* SEARCH AVEC DICO*/
+.dico ul{
+    position: absolute;
+    display: inline-flex;
+    list-style: none;
+    margin-left: 20%;
+}
+.dico button{
+    margin: 10px 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: transparent;
+}
+.dico .paystitre{
+    margin: 10px 10px;
+    text-decoration: none;
+}
+#photos li{
+    list-style: none;
+}
+#photos li a{
+    display: none;
+}
+/* TAILLE DES PHOTOS */
+#photos{
+    margin-top: 5%;
+}
+#photos .gauche{
+    margin-top: 2%;
+    margin-left: 10%; 
+    float: left;
+    width: 22%;
+    height: 22%;
+}
+#photos .droite{
+    margin-top: 2%;
+    margin-right: 10%;
+    float: right;
+    width: 22%;
+    height: 22%;
+}
+
