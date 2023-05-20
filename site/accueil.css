@@ -135,8 +135,14 @@ header{
     margin-left: 60%; /*deplacement vers la droite*/
     width: 30%; /*espace pour le texte*/
 }
+.d1text p {
+    font-weight: bold;
+    
+}
 .d1text h3{
-    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px 0px;
 }
 .d1 img{
     float: left;
@@ -178,6 +184,15 @@ header{
     margin-left: -40%;
     width: 22%;
     height: 22%;
+}
+/* quote */
+.quote p{
+    font-family: 'Sacramento', cursive;
+    float: left;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 20% ;
+    margin-left: 20%;
 }
 /* SECTION D2 */
 
